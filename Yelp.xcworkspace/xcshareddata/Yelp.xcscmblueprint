@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "33E9FCAE4E1EF0EDC64AEB0B33573EE691BACF88",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "33E9FCAE4E1EF0EDC64AEB0B33573EE691BACF88" : 0,
+    "D9B19E4E0A88D6A55EA0450DF35A0D8062CC31D7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40AAA84A-A9D0-4306-ACAA-7AF08F98071E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "33E9FCAE4E1EF0EDC64AEB0B33573EE691BACF88" : "yelp\/",
+    "D9B19E4E0A88D6A55EA0450DF35A0D8062CC31D7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Yelp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Yelp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BrandonArroyo\/yelp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "33E9FCAE4E1EF0EDC64AEB0B33573EE691BACF88"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BrandonArroyo\/PebbleDev.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D9B19E4E0A88D6A55EA0450DF35A0D8062CC31D7"
+    }
+  ]
+}
