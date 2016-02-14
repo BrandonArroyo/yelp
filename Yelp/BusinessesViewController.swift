@@ -12,11 +12,18 @@ class BusinessesViewController: UIViewController,UITableViewDataSource,UITableVi
     @IBOutlet weak var tableView: UITableView!
 
     var businesses: [Business]!
-    
+    var searchBar: UISearchBar = UISearchBar()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // create the search bar programatically since you won't be
+        // able to drag one onto the navigation bar
+     
+        
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 120
         
         Business.searchWithTerm("Thai", completion: { (businesses: [Business]!, error: NSError!) -> Void in
             self.businesses = businesses
@@ -26,6 +33,12 @@ class BusinessesViewController: UIViewController,UITableViewDataSource,UITableVi
                 print(business.address!)
             }
         })
+        
+        searchBar.sizeToFit()
+        navigationItem.titleView = searchBar
+        
+        
+        
 
 // Example of Yelp search with more search options specified
 //        Business.searchWithTerm("Restaurants", sort: .Distance, categories: ["asianfusion", "burgers"], deals: true) { (businesses: [Business]!, error: NSError!) -> Void in
@@ -77,5 +90,8 @@ class BusinessesViewController: UIViewController,UITableViewDataSource,UITableVi
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+  
 
 }
